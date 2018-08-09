@@ -1,0 +1,5 @@
+python u_d_discrimination.py -d ../../data/junipr/u_d_0.03 --down_path ../../data/junipr/final_reclustered_fewer_d_jets_0.03.out --up_path ../../data/junipr/final_reclustered_fewer_u_jets_0.03.out --down_model ../../data/junipr/d_training_0.03/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 --up_model ../../data/junipr/u_training_0.03/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 
+
+python u_d_discrimination.py -d ../../data/junipr/u_d_0.03_no_cut --down_path ../../data/junipr/final_reclustered_fewer_d_jets_0.03_no_cut.out --up_path ../../data/junipr/final_reclustered_fewer_u_jets_0.03_no_cut.out --down_model ../../data/junipr/d_training_0.03_no_cut/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 --up_model ../../data/junipr/u_training_0.03_no_cut/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 
+
+python u_d_discrimination.py -d ../../data/junipr/u_d_no_cut --down_path ../../data/junipr/final_reclustered_fewer_d_jets_no_cut.out --up_path ../../data/junipr/final_reclustered_fewer_u_jets_no_cut.out --down_model ../../data/junipr/d_training_no_cut/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 --up_model ../../data/junipr/u_training_no_cut/p10_q21/JUNIPR_p10_q21_LR1e-05_E0 

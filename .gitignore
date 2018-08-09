@@ -1,0 +1,8 @@
+*.err
+*.out
+*.slurm
+bin/
+*.png
+JUNIPR_anders/saved_data/
+.DS_Store
+*__pycache__/
